@@ -157,6 +157,11 @@ namespace COMP123_S2016_Lesson13
             character.Intelligence = IntelligenceTextBox.Text;
             character.Wisdom = WisdomTextBox.Text;
             character.Charisma = CharismaTextBox.Text;
+
+            this.Hide();
+            RaceAndClassForm raceAndClassForm = new RaceAndClassForm();
+            raceAndClassForm.previousForm = this;
+            raceAndClassForm.Show();
         }
     }
 }

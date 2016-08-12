@@ -18,5 +18,7 @@ namespace COMP123_S2016_Lesson13
         public string Wisdom { get; set; }
 
         public string Charisma { get; set; }
+
+        public string Race { get; set; }
     }
 }

@@ -374,7 +374,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(511, 481);
+            this.ClientSize = new System.Drawing.Size(504, 481);
             this.Controls.Add(this.ModifyGroupBox);
             this.Controls.Add(this.NextButton);
             this.Controls.Add(this.SwapGroupBox);
@@ -416,12 +416,12 @@
         private System.Windows.Forms.Label SecondAbilityLabel;
         private System.Windows.Forms.ComboBox SecondAbilityComboBox;
         private System.Windows.Forms.Label FirstAbilityLabel;
-        private System.Windows.Forms.Button NextButton;
         private System.Windows.Forms.GroupBox ModifyGroupBox;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox ModifyComboBox;
         private System.Windows.Forms.Label ModifyAbilitiesLabel;
         private System.Windows.Forms.Button ModifyButton;
+        protected System.Windows.Forms.Button NextButton;
     }
 }
 
